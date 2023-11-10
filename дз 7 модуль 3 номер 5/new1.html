@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="nav flex-column">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </nav>
+    <h1 class="lead">Hello, world!</h1>
+    <form action="">
+        <label class="lead" for="field">Простое текстовое поле</label>
+        <!--LABEL - подсказка ИМЕННО для поля для ввода-->
+        <!--'FOR' и 'ID' - атрибуты, связывают натпись с полем для ввода. Нажимая на надпись, нас перекидывает в поле ввода -->
+        <input class="form-control form-control-lg" id='field' type="text">
+        <!--type='text' - поле для ввода текста-->
+  
+        <label class="lead" for="check-box">Чек-бокс</label>
+        <input class="form-check-input" id='check-box' type="checkbox">
+        <!--type='check-box' поле для ввода галочки-->
+  
+        <label class="lead" for="parol">Пароль</label>
+        <input class="form-control form-control-sm" id="parol" type="password">
+        <!--type="parol" поле для ввода пароля-->
+  
+        <input class="btn btn-info" type="button" value="Отправить">
+        <!--VALUE - что будет написано в поле для вода-->
+     </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <textarea name="comment"></textarea>
+  </body>
+</html>
+<!--Скопировано с документации Bootsrap-->
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+Подключаем готовое оформление Bootsrap-->
