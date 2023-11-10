@@ -1,0 +1,24 @@
+h1  {
+    background: red;
+}
+.par1  {
+    background: red;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family - Тип шрифта*/
+    padding-bottom: 100px;
+}
+.par2  {
+    background: pink;
+    font-size: 24pt;
+    font-weight: bold;
+    /*Толщина шрифта */;
+    margin-bottom: 60px;
+    /*Отступ снизу 60 пикселей*/
+    text-shadow: 2px 2px 4px green;
+}
+.homework {
+    font-style: italic;
+    text-align: center;
+    font-size: 24pt;
+}
